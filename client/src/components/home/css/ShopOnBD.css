@@ -1,0 +1,218 @@
+.shop-on-bd.mobile {
+    display: none;
+}
+
+.shop-onBD-container h2 {
+    font-size: 2.5rem;
+    /* margin: 10px; */
+    width: 90vw;
+    background-color: #d90429;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin: 10px auto;
+    font-family: "Titillium Web", sans-serif;
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+
+.shop-onBD-container h3 {
+    font-size: 2rem;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.shop-on-bd {
+    width: 95vw;
+    margin: 70px auto !important;
+    /* background-color: #f1f1f1; */
+}
+
+.shop-on-bd img {
+    width: 70%;
+    margin: 0px auto !important;
+    border-radius: 10px;
+    /* border: 10px #111; */
+    /* box-shadow: 3px 3px 5px 6px #ccc; */
+    box-shadow: inset 0 0 10px rgb(109, 117, 124);
+    /* border-radius: 50px; */
+    border-style: groove;
+    padding: 10px;
+}
+
+.category-card {
+    /* background: #111 !important; */
+    /* background: url("https://images.unsplash.com/photo-1538806932492-b6ac36ccfa28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.shop-on-bd {
+    text-align: center;
+}
+
+.shop-onBD-container {
+    /* background: #fdfdfd; */
+    /* padding-bottom: 10px; */
+}
+
+.shop-on-bd img.bike {
+    transition: 0.2s ease-in;
+    position: absolute;
+    z-index: 10;
+    left: 20%;
+    top: 25%;
+}
+
+.shop-on-bd img.accessory-man {
+    transition: 0.2s ease-in;
+    position: absolute;
+    z-index: 10;
+    left: 20%;
+    top: 5%;
+}
+
+.shop-on-bd a img {
+    transition: 0.4s ease;
+}
+
+.shop-on-bd a img:hover {
+    transform: scale(1.1);
+}
+
+.shop-on-bd img.accessory-man:hover {
+    transform: scale(1.1);
+}
+
+.carousel-indicators li {
+    background-color: #111 !important;
+    height: 6px;
+    width: 40px;
+    border-radius: 5px !important;
+}
+
+@media (max-width: 1200px) {
+    .shop-onBD-container h2 {
+        font-size: 2rem;
+    }
+    .shop-on-bd img {
+        width: 70%;
+        margin: 0px auto !important;
+        border-radius: 10px;
+    }
+    .shop-on-bd img.bike {
+        transition: 0.2s ease-in;
+        position: absolute;
+        z-index: 10;
+        left: 15%;
+        top: 25%;
+    }
+    .shop-on-bd img.accessory-man {
+        transition: 0.2s ease-in;
+        position: absolute;
+        z-index: 10;
+        left: 15%;
+        top: 5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .shop-onBD-container h2 {
+        font-size: 3rem;
+    }
+    .shop-on-bd img {
+        width: 90%;
+        margin: 0px auto !important;
+        border-radius: 10px;
+    }
+    .shop-on-bd img.bike {
+        transition: 0.2s ease-in;
+        position: absolute;
+        z-index: 10;
+        left: 5%;
+        top: 25%;
+    }
+    .shop-on-bd img.accessory-man {
+        transition: 0.2s ease-in;
+        position: absolute;
+        z-index: 10;
+        left: 5%;
+        top: 5%;
+    }
+}
+
+@media (max-width: 750px) {
+    .shop-on-bd {
+        margin: 30px auto !important;
+    }
+    .shop-onBD-container h2 {
+        font-size: 2.5rem;
+        width: 80vw;
+    }
+    .shop-on-bd img {
+        width: 100%;
+        margin: 0px auto !important;
+        border-radius: 10px;
+    }
+    .shop-on-bd img.bike {
+        transition: 0.2s ease-in;
+        position: absolute;
+        z-index: 10;
+        left: 5%;
+        top: 25%;
+    }
+    .shop-on-bd img.accessory-man {
+        transition: 0.2s ease-in;
+        position: absolute;
+        z-index: 10;
+        left: 5%;
+        top: 5%;
+    }
+}
+
+@media (max-width: 750px) {
+    .shop-on-bd {
+        /* display: flex !important; */
+        margin: 30px auto !important;
+        flex-direction: row !important;
+    }
+    .shop-onBD-container h2 {
+        font-size: 2.5rem;
+        width: 80vw;
+    }
+    .shop-on-bd img {
+        width: 95%;
+        margin: 0px auto !important;
+        border-radius: 10px;
+    }
+    .shop-on-bd img.bike {
+        transition: 0.2s ease-in;
+        position: absolute;
+        z-index: 10;
+        left: 5%;
+        top: 25%;
+    }
+    .shop-on-bd img.accessory-man {
+        transition: 0.2s ease-in;
+        position: absolute;
+        z-index: 10;
+        left: 5%;
+        top: 10px;
+    }
+    .shop-onBD-container h3 {
+        font-size: 3rem;
+        margin-top: 10px;
+        font-family: "Titillium Web", sans-serif;
+    }
+}
+
+@media (max-width: 576px) {
+    .shop-on-bd.desktop {
+        display: none;
+    }
+    .shop-on-bd.mobile {
+        display: block;
+        /* width: 100vw !important;/ */
+    }
+}
